@@ -4,8 +4,11 @@ Implementation of Deep Learning models to detect medical anomalies
 Model Implemented: Convolutional Neural Networks
 
 Dataset Used: https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset
+
 Type: Brain MRI Scans
+
 Train-Test Split: 80:20
+
 Applied 5-Fold Cross Validation
 
 Results achieved:
@@ -20,5 +23,5 @@ Classification Report:
        Tumor       0.88      0.94      0.91       405
 
     accuracy                           0.94      1311
-   macro avg       0.92      0.94      0.93      1311
-weighted avg       0.94      0.94      0.94      1311
+    macro avg       0.92      0.94      0.93      1311
+    weighted avg       0.94      0.94      0.94      1311
